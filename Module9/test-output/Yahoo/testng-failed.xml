@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Yahoo]">
+  <test name="Yahoo News Test(failed)">
+    <classes>
+      <class name="test.YahooTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- test.YahooTest -->
+      <class name="test.YahooNewsTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="yahooNews"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- test.YahooNewsTest -->
+    </classes>
+  </test> <!-- Yahoo News Test(failed) -->
+</suite> <!-- Failed suite [Yahoo] -->
